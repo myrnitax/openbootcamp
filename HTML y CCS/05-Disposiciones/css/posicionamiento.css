@@ -1,0 +1,42 @@
+div {
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+}
+/* Posicionamiento relativo - Se posiciona en relacion al posicionamiento
+original */
+.relative {
+    position: relative;
+    left: 80px;
+    margin-left: 10px;
+}
+/* al colocar bottom quedaria debajo de todo */
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: darkseagreen;
+    z-index: 10;
+}
+/* posicionamiento absoluto (Quedaria arriba de todo, al principio, si bajamos
+se pierde porque se queda en la primera linea) */
+.absolute {
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+    background-color:coral
+}
+.relative.container {
+    width: 300px;
+    height: 800px;
+    background-color: blue;
+}
+/* posicionamiento pegajoso, el elemento al hacer scroll se va a quedar 
+visible una vez toque el tope o fondo */
+.sticky {
+    position: sticky;
+    background-color: blueviolet;
+    color: white;
+    top: 0px;
+    z-index: 2;
+}

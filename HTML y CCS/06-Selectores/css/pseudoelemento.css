@@ -1,0 +1,41 @@
+.contenedor {
+    width: 300px;
+    height: 100px;
+    background-color: aquamarine;
+}
+div {
+    background-color: violet;
+}
+span.Frase {
+    font-style: italic;
+}
+span.Frase::before {
+    content: '<< ';
+    font-size: xx-small;
+}
+span.Frase::after {
+    content: '>> ';
+    font-size: xx-small;
+}
+.libro {
+    background-color: blanchedalmond;
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.libro p::first-letter {
+    font-size: xx-large;
+}
+.libro p::first-line {
+    color: blue;
+}
+.libro p::selection {
+    background-color:darkorange;
+    color:yellow;
+}
+/* Para lo siguiente (markador de listado, si quisieramos que todos los li tengan las mismas caracteristicas colocamos sin el ul para hacerlo generalizado */
+.listado ul li::marker {
+    color: red;
+}
+.listado ol li::marker {
+    color: rgb(18, 190, 124);
+}

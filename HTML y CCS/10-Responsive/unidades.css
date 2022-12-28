@@ -1,0 +1,35 @@
+body {
+    padding: 20px;
+    margin: 0;
+}
+.escenario {
+    margin: 10px 0px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.escenario-1 {
+    width: 100%;
+}
+.escenario-2 {
+    width: 50%;
+}
+.px {
+    background-color: green;
+    width: 200px;
+}
+.porcentaje {
+    background-color: red;
+    width: 50%;
+}
+.view {
+    background-color: yellow;
+    width: 50vw;
+}
+/* Esto se trato de como se ven las medidas segun
+la unidad de medida que utilicemos
+px es en relacion a la caja mas chica
+% es en relacion a la caja que sigue
+vw es en relacion al ancho de la pagina (toda la 
+pantalla) */
+/* ver informacion sobre densidad de pixeles para
+saber mas sobre las unidades de medida del viewport */

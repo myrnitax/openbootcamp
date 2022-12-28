@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia con HTML</title>
+</head>
+<body>
+    <h3>Imagenes</h3>
+    <img src="/03-Multimedia/imagenes/logohtml.webp" alt="logo HTML5" width="300" height="300">
+    <!--Si creara un nuevo h3 colocaria debajo la sigiente imagen, en este caso sale al lado-->
+    <img src="https://img.freepik.com/vector-gratis/animal-mecanico-puma-ciervo-serpiente-aguila-robots_107791-10730.jpg?w=900&t=st=1666385181~exp=1666385781~hmac=05f3afc436e3f8784bc8720037c1a26d7e959bc52c243ec9ba10869bdaf3c49e" alt="puma" width="320" height="220">
+    <h3>Videos</h3>
+    <video width="500" height="500" controls autoplay muted loop> 
+        <!--
+        "Controls autoplay": se reproduce solo
+        "Controls": asi solo el usuario tiene la opcion de reproducir
+        "Mute": para que no moleste y abra sin sonido
+        "Loop": para que se repita cuando temine-->
+        <source src="Intro.mp4" type="video/mp4">
+    </video>
+    <h3>Audio</h3>
+    <audio controls autoplay loop muted>
+    <source src="gnr-welcome.mp3" type="audio/mp3" />
+</audio>
+</body>
+</html>

@@ -1,0 +1,31 @@
+/* LAS ESPECIFIIDADES SE PUEDEN VER EN EL INDICE CON EL CURSOR
+SOBRE EL SELECTOR Y PUEDEN SER DIFERENTES: UNOS EJEMPLOS:
+1,0,0
+0,1,0
+0,0,1
+0,0,0
+SE SOBREPONE EL QUE TENGA EL NUMERO MAS ALTO DE PRIMERO
+ADICIONAL A ESTO, SI USAMOS LA ETIQUETA STYLE DIRECTAMENTE EN EL HTML, ESTA
+ETIQUETA SE SOBREPONE AL CSS PARA EL CASO DONDE NO EXISTA EL VALOR ESPECIAL
+!important; si esta important en el CSS este prevalece sobre todos
+*/
+
+h1#h1-id\ h1-otroid.h1-clase {
+    color: darkcyan;
+} /* especificidad 1,1,1 */
+.h1-clase {
+    color: salmon !important; /*  EVITAR EL VALOR ESPECIAL IMPORTANT PARA QUE EL CODIGO SEA MAS SOSTENIBLE  */
+} /*  la especficidad es mayor (1,0,0) colocar cursor sobre id para ver */
+#h1-id {
+    color: yellow;
+}
+/* }  especificidad es sobreponente sobre la siguiente (0,1,0)*/
+h1 {
+    color: blue !important;
+} /*  la especficidad es menor (0,0,1)  */
+p {
+    color: red; 
+}
+p {
+    color: grey !important;
+}

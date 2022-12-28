@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pseudo-Clases</title>
+    <!-- https://www.w3schools.com/css/css_pseudo_classes.asp -->
+    <style>
+        *
+        {
+            padding: 0;
+            margin: 0;
+        
+        }
+        .hover {
+            width: 300px;
+            height: 100px;
+            background-color:cornflowerblue;
+        }
+
+        .hover:hover { /* Esta accion se activa cuando el raton pasa por encima */
+            background-color: aquamarine;
+        }
+        .listado {
+            padding: 15px;
+            background-color: bisque;
+        }
+        .listado p:first-child {  /* se coloca el "p" para hacer referencia a todo lo que esta en Listado pero cambiando solo el primer elemento de p */
+            color:chocolate;
+        }
+        a:link {  /* Color para los enlaces no visitados */
+            color: deeppink;
+        }
+        a:visited {  /* Color para enlaces visitados */
+            color: blueviolet;
+        }
+        a:hover {
+            color: pink;
+        }
+        a:active {
+            color: greenyellow;
+        }
+        /* ES IMPORTANTE TENER ESTE ORDEN PARA LOS ENLACES PORQUE SI NO SE VAN A PISAR ENTRE SI LOS RESULTADOS */
+    </style>
+</head>
+<body>
+    <div class="hover">
+        <p>No speeches. Short speech. You lost your partner today. What's his name - Emilio? Emilio is going to prison. The DEA took all your money, your lab. You got nothing. Square one. But you know the bussiness...
+        </p>
+
+    </div>
+    <div class="listado">
+        <p>Parrafo1</p>
+        <p>Parrafo2</p>
+        <p>Parrafo3</p>
+    </div>
+    <div class="enlaces">
+        <a href="http://google.com" target="_blank">Enlace a google</a>
+        <a href="http://marca.com" target="_blank">Enlace a Marca</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.p-contenedor {
+    color: aqua;
+}
+body section.main .contenedor p {
+    color: blue;
+}  /* esto es lo que se define como anidacion de selectoes, ejemplo, body, dentro del body
+section, dentro del section main, dentro del main el contenedor */
+.contenedor #boton-contenedor {
+    color: yellowgreen;
+    background-color: darkolivegreen;
+}

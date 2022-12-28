@@ -1,0 +1,24 @@
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+}
+div.barralateral {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(196, 65, 183);
+    color: rgb(41, 42, 44);
+}
+div.seccion-principal {
+    padding: 10px;
+    flex-grow: 1;
+}
+@media (max-width: 640px) {
+    body {
+        flex-direction: column-reverse;
+    }
+    div.barra-lateral {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}

@@ -1,0 +1,33 @@
+/* https://codepen.io/enxaneta/full/adlPwv */
+
+.flex {
+    display: flex;
+    flex-direction: row-reverse; /* al colocar flex direction se puede modificar
+    como vienen posicionados por defecto (row) a otro posicionamiento */
+    background-color: yellow;
+    height: 300px;
+    justify-content:space-around;
+    align-items: center;
+    /* flex-wrap: wrap;  */
+}
+/* Se coloca el displai flex y quedan los cuadros de contenido del div padre 
+uno al lado del otro  */
+.contenido-1 {
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+    align-items: center;
+}
+.contenido-2 {
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
+.contenido-3 {
+    background-color: pink  ;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}

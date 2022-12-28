@@ -1,0 +1,37 @@
+h1{
+    color: rgb(100, 11, 11);
+}
+/* Estoy probando color y tamaño de fuente*/
+p{
+    color: darkblue;
+    font-size: 16pt;
+}
+#primera-noticia {
+    color: aqua;
+    font-size: 12pt;
+}
+#segunda-noticia{
+    color: hsl(271, 63%, 19%);
+}
+.encabezado {
+    font-size: 24pt;
+    text-transform: uppercase;
+} 
+* {
+    color: yellowgreen;
+} 
+/* si usamos el ASTERISCO sin colocarle un . y nombre de la clase, todo lo que no tenga el atributo como 
+por ejemplo color, tomara el atributo que definamos generalizad */
+*.warning {
+    color: red
+} 
+/* aqui definimos la clase que llevara el atributo en este ejemplo color, donde solo el que tenga el nombre
+de la clase muestra el resultado del atributo que se especifico */
+.autor {
+    text-decoration: underline;
+}
+.fecha, .ubicacion, h1, #segunda-noticia {
+    text-decoration: overline;
+}
+/* se puede hacer con etiquetas, clases, Id ETC, fijarse que las clases llevan punto antes de la clase
+mientras que h1 no lleva nada y segunda-noticia lleva numeral */

@@ -1,0 +1,23 @@
+body {
+    padding: 15px;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+.btn-modern {
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(49, 144, 175);
+    color: rgb(0, 0, 0);
+    transition: 0.4s;
+}
+.btn-modern:hover {
+    transform: translateY(-5px); 
+    background-color:rgb(107, 154, 169);
+    color: white;
+    border-bottom: 3px solid rgb(85, 83, 83);
+    animation-play-state: running
+}

@@ -1,0 +1,40 @@
+h1 {
+    color: red;
+    font-size: 4rem;
+}
+p {
+    color: black;
+    font-size: 2rem;
+}
+
+/* @media all and: van a ser afechado lo que esta en la llave lo que se especifique en ese momento
+en el ejercicio vimos: 
+print, donde cuando hacemos imprimir cambia 
+screen: cambia en la visualizacion segun el tamaño
+all: que es como viene predeterminado, en ese caso no se necesita colocar */
+
+@media (max-width: 576px) {
+    h1 {
+        color: blue
+    }
+}
+
+@media (min-width: 995px) {
+    h1 {
+    color: green
+    }
+}
+
+/* Este siguiente, la coma siguinifa que si se cumple uno o el otro (,)*/
+@media (min-height: 300px), (min-width: 1100px) {
+    p {
+        color: aqua;
+    }
+}
+
+/* Este siguiente, la coma siguinifa que si se cumplen las dos condiciones (and)*/
+@media (orientation: landscape) and (min-height: 400px){
+    h1 {
+        color: chocolate;
+    }
+}
