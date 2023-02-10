@@ -1,0 +1,10 @@
+// Archivo de configuracion de reglas ESlint
+{
+    "rules": {
+        "eqeqeq": "warn",
+        "strict": "off",
+        "quotes": ["error", "single"],
+        "semi": ["error", "never"],
+        "no-dupe-keys": "error"
+    }
+}
