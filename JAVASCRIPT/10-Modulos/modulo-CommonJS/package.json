@@ -1,0 +1,12 @@
+{
+  "name": "modulo-commonjs",
+  "version": "1.0.0",
+  "main": "matematicas.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
